@@ -1,0 +1,35 @@
+--- PAGE 1 ---
+Wassim Chaouch  – Administrateur Systèmes & Réseaux  
+    Zaghouan |    +216 92 575 365 | ✉ chawchwassim123@gmail.com  
+   LinkedIn  : chawch wassim |    GitHub  : WASSIMCHAWCH  
+🎯 Profil  
+Technicien informatique titulaire d’une licence en systèmes informatiques, spécialisé en administration 
+systèmes & réseaux et en développement web. Expérience en support techn ique et en déploiement de 
+solutions IT adaptées aux environnements industriels et pharmaceutiques.  
+💼 Expériences professionnelles  
+1. Technicien IT – Cytopharma, Zriba Hammem (nov. 2023 – présent)  : 
+- Administration des serveurs (Exchange, AD, SageX3, Qualipro).  
+- Gestion des incidents systèmes/réseaux et du parc informatique.  
+- Développement web interne (applications de suivi et gestion).  
+2. Développeur Blockchain – Golden Boy Software, Serbie (juin – août 2023)  : 
+- Création de sites web et serveurs Node. js. 
+- Développement et déploiement de contrats intelligents Ethereum.  
+🎓 Formation  
+- Licence en Ingénierie des Systèmes Informatiques (IoT) – ISMAI Kairouan (2020 – 2023)  
+- Baccalauréat Technologique – Lycée Ibn Charaf Zaghouan (2020)  
+🛠️ Compétences techn iques  
+- Systèmes & Réseaux : Administration de Windows Server et Linux, virtualisation VMware/Hyper -V, 
+sauvegarde et redondance, segmentation réseau, configuration de pare -feu et VPN.  
+- Logiciels métiers :  SageX3, Microsoft Exchange, Active Directory, Qualipro et systèmes MES.  
+- Développement :  React.js, Express.js, PHP, Python ; gestion de bases de données MySQL et SQL Server ; 
+contrôle de version avec Git ; conteneurisation avec Docker.  
+📌 Projets réalisé s 
+• Systèmes  : déploiement d’Active Directory (GPO), Microsoft Exchange , Virtualisation et 
+migrations physiques → virtuel , automatisation de tâches PowerShell/Bash . 
+• Réseaux  : Conception et déploiement d’une infrastructure réseau sécurisée , supervision via 
+Zabbix , vidéosurveillance IP . 
+• Développement et déploiement des applications  : gestion de stock (CRUD, sauvegarde, alertes 
+e-mail) et gestion des congés (suivi, notifications).  
+🌍 Langues  
+• Français : intermédiaire (B2)  
+• Anglais : intermédiaire (B2)  
