@@ -1,0 +1,392 @@
+<!--
+  index.html
+  Professional, responsive CV website using Bootstrap 5
+  Updated: September 2026
+-->
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags for responsiveness and SEO -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wassim Chaouch - Responsable Informatique. Spécialisé en administration systèmes & réseaux, déploiement d'infrastructures IT et solutions client-serveur.">
+    <meta name="author" content="Wassim Chaouch">
+    <title>Wassim Chaouch - Responsable Informatique</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Wassim Chaouch</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#about">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#expertise">Réalisations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Formation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-primary btn-sm" href="cv.pdf" download="Wassim_Chaouch_CV.pdf">Télécharger le CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero / About -->
+    <header id="about" class="hero-section">
+      <div class="container">
+        <div class="hero-card">
+          <div class="row align-items-center g-4">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+              <img src="assets/photo.jpg" alt="Photo de Wassim Chaouch" class="profile-img mx-auto d-block">
+            </div>
+            <div class="col-md-8">
+              <h1 class="display-6 mb-2">Wassim Chaouch</h1>
+              <p class="role-pill mb-3">Responsable Informatique</p>
+              <p class="lead text-muted mb-3">Responsable informatique et installateur d'infrastructures client-serveur, titulaire d'une licence en systèmes informatiques et actuellement en préparation d'un diplôme d'ingénieur en cybersécurité (cours du soir, prévu pour 2027). Spécialisé en administration systèmes &amp; réseaux et en déploiement d'infrastructures IT.</p>
+              <div class="hero-actions">
+                <a class="btn btn-primary me-2" href="#contact">Contact</a>
+                <a class="btn btn-outline-secondary" href="#expertise">Réalisations</a>
+              </div>
+              <ul class="hero-meta">
+                <li><i class="bi bi-geo-alt"></i> Zaghouan, Tunisie</li>
+                <li><i class="bi bi-telephone"></i> <a href="tel:+21693125694">+216 93 125 694</a></li>
+                <li><i class="bi bi-envelope"></i> <a href="mailto:chawchwassim123@gmail.com">chawchwassim123@gmail.com</a></li>
+              </ul>
+              <div class="hero-links">
+                <a href="https://www.linkedin.com/in/chawch-wassim-5aa0a125"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/WASSIMCHAWCH"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+
+        <!-- Experience -->
+        <section id="experience" class="section-block">
+          <h2 class="section-title">Expérience Professionnelle</h2>
+          <div class="timeline">
+
+            <!-- Précision Électronique -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start mb-1">
+                    <h3 class="h6 mb-0">Responsable IT &amp; Client Server Installer</h3>
+                    <span class="badge-date">07/2026 — Présent</span>
+                  </div>
+                  <p class="text-muted small mb-2 fw-semibold">Précision Électronique</p>
+                  <ul class="mb-0 small">
+                    <li>Installation, configuration et déploiement des solutions client-serveur Agilent.</li>
+                    <li>Gestion du parc informatique et support IT.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cytopharma -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start mb-1">
+                    <h3 class="h6 mb-0">Administrateur Systèmes et Réseaux</h3>
+                    <span class="badge-date">Nov 2023 — Juil 2026</span>
+                  </div>
+                  <p class="text-muted small mb-2 fw-semibold">Cytopharma — Zriba Hammem</p>
+                  <ul class="mb-0 small">
+                    <li>Administration des serveurs : Exchange, Active Directory, SageX3 et Qualipro.</li>
+                    <li>Gestion des incidents systèmes/réseaux et du parc informatique.</li>
+                    <li>Développement web interne pour des applications de suivi et de gestion.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- Golden Boy Software -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <div class="d-flex flex-wrap justify-content-between align-items-start mb-1">
+                    <h3 class="h6 mb-0">Développeur Blockchain</h3>
+                    <span class="badge-date">Juin 2023 — Août 2023</span>
+                  </div>
+                  <p class="text-muted small mb-2 fw-semibold">Golden Boy Software — Serbie</p>
+                  <ul class="mb-0 small">
+                    <li>Création de sites web et serveurs Node.js.</li>
+                    <li>Développement et déploiement de contrats intelligents Ethereum.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section-block section-alt">
+          <h2 class="section-title">Compétences</h2>
+          <div class="row g-4">
+
+            <!-- Systèmes & Réseaux -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 card-title mb-3">
+                    <i class="bi bi-server me-2 text-accent"></i>Systèmes &amp; Réseaux
+                  </h3>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Windows Server</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">VMware</span>
+                    <span class="skill-tag">Hyper-V</span>
+                    <span class="skill-tag">Sauvegarde &amp; redondance</span>
+                    <span class="skill-tag">Segmentation réseau</span>
+                    <span class="skill-tag">Pare-feu</span>
+                    <span class="skill-tag">VPN</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Logiciels métiers -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 card-title mb-3">
+                    <i class="bi bi-briefcase me-2 text-accent"></i>Logiciels Métiers
+                  </h3>
+                  <div class="skill-tags">
+                    <span class="skill-tag">SageX3</span>
+                    <span class="skill-tag">Microsoft Exchange</span>
+                    <span class="skill-tag">Active Directory</span>
+                    <span class="skill-tag">Qualipro</span>
+                    <span class="skill-tag">eCTD</span>
+                    <span class="skill-tag">Systèmes MES</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Développement -->
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h6 card-title mb-3">
+                    <i class="bi bi-code-slash me-2 text-accent"></i>Développement
+                  </h3>
+                  <div class="skill-tags">
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">Docker</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Expertise / Réalisations -->
+        <section id="expertise" class="section-block">
+          <h2 class="section-title">Réalisations Techniques</h2>
+          <div class="row g-4">
+
+            <!-- Systèmes -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm project-card">
+                <div class="card-body">
+                  <h3 class="h6 mb-3"><i class="bi bi-hdd-network me-2 text-accent"></i>Infrastructure Systèmes</h3>
+                  <ul class="small mb-0">
+                    <li>Déploiement d'Active Directory avec GPO.</li>
+                    <li>Microsoft Exchange.</li>
+                    <li>Virtualisation (VMware / Hyper-V).</li>
+                    <li>Migrations physiques vers virtuelles.</li>
+                    <li>Automatisation de tâches avec PowerShell / Bash.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Réseaux -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm project-card">
+                <div class="card-body">
+                  <h3 class="h6 mb-3"><i class="bi bi-diagram-3 me-2 text-accent"></i>Infrastructure Réseau</h3>
+                  <ul class="small mb-0">
+                    <li>Conception et déploiement d'une infrastructure réseau sécurisée.</li>
+                    <li>Supervision via Zabbix.</li>
+                    <li>Vidéosurveillance IP.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Applications -->
+            <div class="col-md-4">
+              <div class="card h-100 shadow-sm project-card">
+                <div class="card-body">
+                  <h3 class="h6 mb-3"><i class="bi bi-window-stack me-2 text-accent"></i>Applications Internes</h3>
+                  <ul class="small mb-0">
+                    <li>Application de gestion de stock avec CRUD, sauvegarde et alertes e-mail.</li>
+                    <li>Application de gestion des congés avec suivi et notifications.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section-block section-alt">
+          <h2 class="section-title">Formation</h2>
+          <div class="row g-3">
+
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <span class="badge-date mb-2 d-inline-block">2024 — 2027</span>
+                  <h3 class="h6">Diplôme d'Ingénieur en Cybersécurité</h3>
+                  <p class="text-muted small mb-1">Sécurité des Systèmes Informatiques et Réseaux</p>
+                  <p class="text-muted small mb-1 fw-semibold">iTeam University</p>
+                  <p class="small text-muted mb-0">Cours du soir — Passage en 3ᵉ année — Diplôme prévu en 2027.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <span class="badge-date mb-2 d-inline-block">2020 — 2023</span>
+                  <h3 class="h6">Licence en Ingénierie des Systèmes Informatiques — IoT</h3>
+                  <p class="text-muted small mb-1 fw-semibold">ISMAI Kairouan</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <span class="badge-date mb-2 d-inline-block">2020</span>
+                  <h3 class="h6">Baccalauréat Technologique</h3>
+                  <p class="text-muted small mb-1 fw-semibold">Lycée Ibn Charaf — Zaghouan</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Languages -->
+        <section id="languages" class="section-block">
+          <h2 class="section-title">Langues</h2>
+          <div class="row g-3">
+            <div class="col-sm-6 col-md-3">
+              <div class="card shadow-sm text-center">
+                <div class="card-body py-3">
+                  <i class="bi bi-translate fs-4 text-accent mb-2 d-block"></i>
+                  <p class="fw-semibold mb-0 small">Français</p>
+                  <p class="text-muted small mb-0">Intermédiaire — B2</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="card shadow-sm text-center">
+                <div class="card-body py-3">
+                  <i class="bi bi-translate fs-4 text-accent mb-2 d-block"></i>
+                  <p class="fw-semibold mb-0 small">Anglais</p>
+                  <p class="text-muted small mb-0">Intermédiaire — B2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section-block section-alt">
+          <h2 class="section-title">Contact</h2>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h3 class="h6">Me contacter</h3>
+                  <p class="text-muted small">Disponible pour toute opportunité professionnelle. Contactez-moi par e-mail ou LinkedIn.</p>
+                  <ul class="list-unstyled small mb-3">
+                    <li class="mb-1"><i class="bi bi-envelope me-2 text-accent"></i><a href="mailto:chawchwassim123@gmail.com">chawchwassim123@gmail.com</a></li>
+                    <li class="mb-1"><i class="bi bi-telephone me-2 text-accent"></i><a href="tel:+21693125694">+216 93 125 694</a></li>
+                    <li class="mb-1"><i class="bi bi-linkedin me-2 text-accent"></i><a href="https://www.linkedin.com/in/chawch-wassim-5aa0a125">linkedin.com/in/chawch-wassim-5aa0a125</a></li>
+                    <li class="mb-1"><i class="bi bi-github me-2 text-accent"></i><a href="https://github.com/WASSIMCHAWCH">github.com/WASSIMCHAWCH</a></li>
+                    <li class="mb-1"><i class="bi bi-geo-alt me-2 text-accent"></i>Zaghouan, Tunisie</li>
+                  </ul>
+                  <a class="btn btn-outline-primary" href="cv.pdf" download="Wassim_Chaouch_CV.pdf">
+                    <i class="bi bi-download me-1"></i>Télécharger le CV (PDF)
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h3 class="h6">Envoyer un message</h3>
+                  <!-- Simple mailto form fallback (no backend) -->
+                  <form action="mailto:chawchwassim123@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-2">
+                      <label class="form-label small">Nom</label>
+                      <input class="form-control" type="text" name="name">
+                    </div>
+                    <div class="mb-2">
+                      <label class="form-label small">Message</label>
+                      <textarea class="form-control" rows="4" name="message"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Envoyer</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container text-center small text-muted">
+        © <span id="year"></span> Wassim Chaouch — Responsable Informatique
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Minimal inline script for year (keeps site static) -->
+    <script>
+      // Set current year for footer. No user data sent.
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
